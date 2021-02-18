@@ -1,6 +1,14 @@
+/*****************Fonts*******************/
+
 @font-face {
     font-family: bubbleBody;
     src: url(BubblebodyFat.ttf);
+}
+
+/*****************Fonts*******************/
+
+html {
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -11,10 +19,9 @@
 body {
     font-family: 'Comfortaa', cursive;
     max-width: 1000px;
-    
 }
 body > * {
-    background-color: #f4f0ffff;
+    background-color: #f4f0ff;
 }
 
 .bubbleBody {
@@ -23,9 +30,10 @@ body > * {
 }
 
 .navbar {
-    background-color: white;
+    background-color: rgba(255,255,255,0.8);
     position: fixed;
     width: 980px;
+    z-index: 10000;
 }
 
 .navbar>ul {
@@ -43,14 +51,24 @@ body > * {
     display: inline;  
 }
 
+
+svg {
+    padding-top: 50px;
+}
+
 .jumbotron {
     text-align: center;
 }
 
+#main {
+    position: absolute;
+    top: 180px;
+    
+    text-align: center;
+}
 #mainPic {
     max-width: 500px;
-/*    position:*/
-    
+/*    position: fixed;*/
 }
 
 #aboutPic {
@@ -59,8 +77,26 @@ body > * {
 
 }
 
+footer {
+	text-align: center;
+	color: black;
+	transition: 1s;
+}
+
+footer:hover {
+    color: #674ea7;
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(97,66,163,0.1));
+}
+
+
+
+
+/*****************Responsive sizing*******************/
 
 @media screen and (max-width: 1000px) {
+    .navbar {
+        width: 680px
+    }
     .navbar>ul>div {
         display: inherit;
     }
@@ -80,3 +116,5 @@ body > * {
         max-width: 500px;
     }
 }
+
+/*****************Responsive sizing*******************/
