@@ -1,7 +1,37 @@
+@font-face {
+    font-family: bubbleBody;
+    src: url(BubblebodyFat.ttf);
+}
+
+.container {
+    max-width: 1000px;
+}
+
 body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.bubbleBody {
+    font-family: bubbleBody;
+}
+
+.navbar>ul {
+    list-style-type: none;
+    font-size: 20px;
     
 }
 
-.navbar {
-    
+.navbar>ul>div>li {
+    display: inline;
+    padding: 0px 10px; 
+}
+.navbar>ul>div {
+    display: inline; 
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar>ul>div {
+        display: inherit;
+    }
 }
