@@ -5,19 +5,32 @@
 
 .container {
     max-width: 1000px;
+/*     background-color: #f4f0ffff; */
 }
 
 body {
     font-family: 'Comfortaa', cursive;
+    max-width: 1000px;
+    
+}
+body > * {
+    background-color: #f4f0ffff;
 }
 
 .bubbleBody {
     font-family: bubbleBody;
+    color: #674ea7 /*light purple #f4f0ffff */ 
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
 }
 
 .navbar>ul {
     list-style-type: none;
     font-size: 20px;
+    padding-left: 100px;
     
 }
 
@@ -27,6 +40,22 @@ body {
 }
 .navbar>ul>div {
     display: inline; 
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#mainPic {
+    max-width: 500px;
+/*    position: fixed;*/
+    
+}
+
+#aboutPic {
+    border-radius: 25px;
+    width: 300px;
+
 }
 
 
