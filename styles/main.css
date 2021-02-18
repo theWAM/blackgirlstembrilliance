@@ -25,6 +25,7 @@ body > * {
 .navbar {
     background-color: white;
     position: fixed;
+    width: 980px;
 }
 
 .navbar>ul {
@@ -39,7 +40,7 @@ body > * {
     padding: 0px 10px; 
 }
 .navbar>ul>div {
-    display: inline; 
+    display: inline;  
 }
 
 .jumbotron {
@@ -48,7 +49,7 @@ body > * {
 
 #mainPic {
     max-width: 500px;
-/*    position: fixed;*/
+/*    position:*/
     
 }
 
