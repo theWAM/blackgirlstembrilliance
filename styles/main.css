@@ -34,4 +34,19 @@ body {
     .navbar>ul>div {
         display: inherit;
     }
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        text-align: center;
+    }
+    .navbar>ul>div {
+        display: none;
+    }
+    .container {
+        max-width: 500px;
+    }
 }
