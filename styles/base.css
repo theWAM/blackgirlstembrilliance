@@ -60,6 +60,16 @@ body > * {
 
 .navbar>ul>div>li>a:hover {
     color: #674ea7;
+    font-weight: 700;
+    transition: 0s;
+}
+
+#behindNav {
+background: linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 80%);
+    position: fixed;
+    width: 980px;
+    height: 10vh;
+    z-index: 9999;
 }
 
 #whiteSpace {
@@ -89,14 +99,43 @@ a:hover {
 }
 
 footer {
-	text-align: center;
-	color: black;
+/*	text-align: center;*/
+    background-color: #E2D8F9; /* mid dark purple */
+	color: #4B5766; /* blue grey */
 	transition: 1s;
+    height: 250px;
+    border-style: solid none none none;
+    border-width: 5px;
+    border-top-color: #674ea7;
+    font-weight: 700;
 }
 
 footer:hover {
-    color: #674ea7;
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(97,66,163,0.1));
+    transition: 1s;
+}
+
+footer>div {
+    padding: 20px 40px;
+}
+
+.footerList>ul {
+    list-style-type: none;
+}
+
+.footerList>ul>b {
+    font-size: 20px;
+    color: #674ea7;
+    
+}
+
+.footerList>ul>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerList>ul>li>a {
+    color: #4B5766;
 }
 
 /*****************Add new styles below*******************/
