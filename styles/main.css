@@ -144,8 +144,12 @@ p {
 }
 
 .text-block>div {
-    width: 90%;
-    
+    border-style: solid;
+    border-radius: 20px; 
+}
+
+.text-block {
+/*    padding-bottom: 50px;*/
 }
 
 footer {
