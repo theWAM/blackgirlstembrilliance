@@ -149,16 +149,18 @@ p {
 }
 
 .text-block>div {
-    border-style: solid;
+    border-style: dotted;
+    border-color: rgba(99,81,162,0.5);
     border-radius: 20px; 
+    padding: 40px 20px;
 }
 
 .text-block {
 /*    padding-bottom: 50px;*/
+    padding: 20px;
 }
 
 footer {
-/*	text-align: center;*/
     background-color: #E2D8F9; /* mid dark purple */
 	color: #4B5766; /* blue grey */
 	transition: 1s;
@@ -175,7 +177,7 @@ footer:hover {
 }
 
 footer>div {
-    padding: 20px 40px;
+    padding: 20px 40px 0px 40px;
 }
 
 .footerList>ul {
