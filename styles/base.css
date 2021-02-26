@@ -35,6 +35,8 @@ body > * {
     position: fixed;
     width: 980px;
     z-index: 10000;
+    border-width: 5px;
+    border-top-color: #674ea7;
 }
 
 .navbar>ul {
@@ -80,6 +82,15 @@ svg {
     background-color: white;
 /*    margin-bottom: -300px;*/
 /*    z-index: -10000;*/
+}
+
+#header {
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    top: 350px;
+    left: 0px;
 }
 
 a {
