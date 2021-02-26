@@ -98,6 +98,28 @@ a:hover {
     color: orange; 
 }
 
+.text-block>div>h3>div {
+    display: inline;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.text-block>div>p {
+
+}
+
+.text-block>div {
+    border-style: dotted;
+    border-color: rgba(99,81,162,0.5);
+    border-radius: 20px; 
+    padding: 40px 20px;
+}
+
+.text-block {
+/*    padding-bottom: 50px;*/
+    padding: 20px;
+}
+
 footer {
 /*    z-index: 1000;*/
     background-color: #E2D8F9; /* mid dark purple */
