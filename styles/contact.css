@@ -1,6 +1,18 @@
 .icons {
-    height: 50px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
 #contact {
     

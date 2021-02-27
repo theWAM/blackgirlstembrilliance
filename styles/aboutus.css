@@ -41,7 +41,7 @@
 }
 
 .profile-pic:active {
-    background-color: aqua;
+    background-color: rgb(146, 89, 168);
 }
 
 .profile-pic:hover > h3 {
@@ -61,6 +61,9 @@
     text-align: center;
 }
 
+.read-more {
+    
+}
 
 
 /*****************Add new styles above*******************/
