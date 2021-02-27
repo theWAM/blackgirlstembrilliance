@@ -1,0 +1,22 @@
+.empty-box {
+    width:auto;
+    height:auto;
+    border-radius:15px;
+    background-color:#b4a7d6ff;
+    padding:60px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.git-image {
+    float:right;
+    height: 150px;
+}

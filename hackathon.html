@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css"> 
+    <link rel="stylesheet" type="text/css" href="styles/hackathon.css"> 
 
     <!--   AOS scroll reveal css import  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -22,49 +24,92 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
       
-    <div class="navbar">
-        <h1 id="title" class="bubbleBody">Black Girl <br>STEM Brilliance</h1>
-        <ul>
-            <div>
-                <li>about us</li>
-                <li>events</li>
-                <li>activities</li>
-            </div>
-            <div>
-                <li>sponsor</li>
-                <li>contact</li>
-            </div>
-        </ul>
-    </div>
-    <div class="jumbotron">
-      <img id='mainPic' style="padding-bottom: 3%;" src="media/bgsbRound2Logo.png">
-      <p>An initiative to inspire young black girls towards STEM</p>
-      <h4 class="bubbleBody">Learn More <br>▼</h4>
-    </div>
-
-    <div>
-        <h4 class="bubbleBody" style="text-align: center;">Hackathon</h4>
-        <img style="float:left" src="/media/bgsbVector1.png">
-        <h4> Our Goal</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        
-        <img style="float:right" src="/media/200px/github200px.png">
-        
-        <p>Turpis tincidunt id aliquet risus feugiat in ante. Eget aliquet nibh praesent tristique magna sit. Tincidunt praesent semper feugiat nibh sed. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nunc sed id semper risus in hendrerit gravida. 
-        </p>
-
-        <div style="width:250px;height:auto;border-radius:15px;background-color:#b4a7d6ff;padding:30px;text-align: center;">    
-            <p>Github</p>
+        <div class="navbar">
+            <h1 id="title" class="bubbleBody"><a href="index.html">Black Girl <br>STEM Brilliance</a></h1>
+            <ul>
+                <div>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="hackathon.html">events</a></li>
+                    <li><a href="#">activities</a></li>
+                </div>
+                <div>
+                    <li><a href="#">sponsor</a></li>
+                    <li><a href="contactus.html">contact</a></li>
+                </div>
+            </ul>
         </div>
+          <div id="behindNav"></div>
+        <div id="jumbo">
+            <div id="whiteSpace"></div>
+            <svg version="1.1" viewBox="0.0 0.0 957.0 539.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                <clipPath id="gbfc32bec3a_1_0.0"><path d="m0 0l960.0 0l0 540.0l-960.0 0l0 -540.0z" clip-rule="nonzero"/></clipPath><g clip-path="url(#gbfc32bec3a_1_0.0)"><path fill="#ffffff" d="m0 0l960.0 0l0 540.0l-960.0 0z" fill-rule="evenodd"/><path fill="#f4f0ff" d="m-0.8608924 165.01837l-1.6587926 375.88452l966.2599 1.8582764l-3.7139282 -392.72968l-37.1391 7.427826l-47.34906 8.356949l-56.078796 6.081375l-252.1601 -28.364838l-59.41992 -2.7847748l-55.706055 6.4986877l-60.34906 5.572174l-59.91339 5.320221l-32.002625 1.1784668l-58.490814 -10.212601l-29.708664 -2.7847748l-80.77428 -7.4278107l-38.99475 2.7847748z" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m3.4383202 165.88045c22.487314 -4.4978027 80.46501 -25.840332 134.92387 -26.986877c54.458893 -1.1465302 124.672806 19.488632 191.82939 20.10762c67.15662 0.61898804 132.28873 -17.826767 211.11023 -16.393707c78.82153 1.433075 191.72223 23.599747 261.8189 24.992126c70.09668 1.392395 132.30096 -13.864822 158.76117 -16.637787" fill-rule="evenodd"/><path stroke="#674ea7" stroke-width="8.0" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="64.0,24.0,8.0,24.0" d="m3.4383202 165.88045c22.487314 -4.4978027 80.46501 -25.840332 134.92387 -26.986877c54.458893 -1.1465302 124.672806 19.488632 191.82939 20.10762c67.15662 0.61898804 132.28873 -17.826767 211.11023 -16.393707c78.82153 1.433075 191.72223 23.599747 261.8189 24.992126c70.09668 1.392395 132.30096 -13.864822 158.76117 -16.637787" fill-rule="evenodd"/></g>
+            </svg>
+            
+            <div id="header" class="bubbleBody jumbotron">Hackathon</div>
+        </div>
+    
+        <div class="text-block">
+            <div class="container">
+                <div class="bubbleBody jumbotron mini-titles"><h1>Our Goal</h1></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         
-        <div style="width:250px;height:auto;border-radius:15px;background-color:#b4a7d6ff;padding:30px;text-align: center;">    
-            <p>Visit out Discord!</p>
+                <img class="git-image" src="/media/200px/github200px.png">
+
+                <br> 
+
+                <p>Turpis tincidunt id aliquet risus feugiat in ante. Eget aliquet nibh praesent tristique magna sit. Tincidunt praesent semper feugiat nibh sed. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nunc sed id semper risus in hendrerit gravida. 
+                </p>
+                
+                <br>
+
+                <div class="row">
+                    <div class="empty-box column">    
+                        <p>Github</p>
+                    </div>
+                    
+                    <div class="empty-box column">    
+                        <p>Visit out Discord!</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-    </div>
+        <footer>
+            <div class="row">
+    
+                <div class="col-4"><img src="media/bgsbRound2Vector2.png" class="img-fluid"></div>
+                <div class="col-8 row">
+                    <div class="footerList col-4">
+                        <ul>
+                            <b>General</b>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="hackathon.html">Events</a></li>
+                            <li><a href="#">Activities</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerList col-4">
+                        <ul>
+                            <b>Companies</b>
+                            <li><a href="#">Sponsor</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerList col-4">
+                        <ul>
+                            <b>Socials</b>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">YouTube</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
