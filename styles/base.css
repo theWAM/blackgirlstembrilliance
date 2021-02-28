@@ -106,7 +106,7 @@ a:visited a:active{
 
 a:hover {
     text-decoration: none;
-    color: orange; 
+    color: rgb(206, 178, 224); 
 }
 
 .text-block>div>h3>div {
