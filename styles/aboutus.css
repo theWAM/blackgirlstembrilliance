@@ -31,13 +31,9 @@
 /*    z-index: -1;*/
 }
 
+/*
 .profile-pic:hover > img {
     filter: brightness(50%);
-/*    z-index: -1;*/
-/*
-    animation: words-appear .2s linear 0s 1 normal;
-    animation-fill-mode: forwards;
-*/
 }
 
 .profile-pic:active {
@@ -47,6 +43,7 @@
 .profile-pic:hover > h3 {
     color: rgba(255,255,255,1);
 }
+*/
 
 .img-block {
 /*    display: inline;*/
@@ -67,7 +64,8 @@
 
 .flip-card {
     background-color: transparent;
-    height: 260px;
+/*    height: inherit;*/
+    height: 150px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -82,15 +80,15 @@
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:active .flip-card-inner {
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-#flip:active .flip-card-inner {
+#flip:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-#flip:active .flip-card-front {
+#flip:hover .flip-card-front {
     opacity: 0;
     transition-delay: 0.5s;
     transition: 0.5s;
@@ -115,7 +113,19 @@
 .flip-card-back {
 /*  background-color: rgba(250,250,250, 0.2);*/
   transform: rotateY(180deg);
+/*    background-color: rgba(255,255,255,0.3);*/
+    height: inherit;
+    border-radius: 20px;
 }
 
+.flip-card-back>.row {
+    display: inline;
+/*    height: 10px;*/
+}
+
+.flip-card-back>.row>a>img {
+    display: inline;
+    height: 30px;
+}
 
 /*****************Add new styles above*******************/
