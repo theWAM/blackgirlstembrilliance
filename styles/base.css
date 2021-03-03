@@ -181,7 +181,7 @@ footer>div {
 
 @media screen and (max-width: 1000px) {
     .navbar {
-        width: 780px
+        width: 915px
     }
     .navbar>ul>div {
         display: inherit;

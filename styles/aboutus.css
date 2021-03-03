@@ -128,4 +128,8 @@
     height: 30px;
 }
 
+.flip-card-back>p {
+    font-size: 12px;
+}
+
 /*****************Add new styles above*******************/
