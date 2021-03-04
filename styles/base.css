@@ -22,12 +22,12 @@ body {
 /*    background-color: #f4f0ff;*/
 }
 body > * {
-    background-color: #f4f0ff;
+    background-color: #f4f0ff; /* light purple */
 }
 
 .bubbleBody {
     font-family: bubbleBody;
-    color: #674ea7 /*light purple #f4f0ffff */ 
+    color: #674ea7  /* dark purple */
 }
 
 .navbar {
