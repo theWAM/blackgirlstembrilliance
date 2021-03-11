@@ -202,23 +202,26 @@ footer>div {
 /* drop down */
 
  .dropbtn {
-    background-color: #ffffff;
+    background-color: transparent;
     color: white;
     padding: 16px;
     font-size: 20px;
     border: none;
+    border-radius: 20px 20px 0px 0px;
   }
   
   .dropdown {
     display: inline;
+    border-radius: 40px;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0px 20px 20px 20px;
     z-index: 1;
   }
   
@@ -228,13 +231,14 @@ footer>div {
     font-size: 16px;
     text-decoration: none;
     display: block;
+    border-radius: inherit;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #f2f2f2; }
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #ffffff;}
+  .dropdown:hover .dropbtn {background-color: rgba(255,255,255, 0.9);}
   
 /*****************Responsive sizing*******************/
 

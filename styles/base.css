@@ -50,17 +50,17 @@ body > * {
     display: inline;  
 }
 
-.navbar>ul>div>li {
+.navbar>ul>div>li, .navbar>ul>div>.dropdown>button>li{
     display: inline;
     padding: 0px 10px; 
 }
 
-.navbar>ul>div>li>a {
+.navbar>ul>div>li>a, .navbar>ul>div>.dropdown>button>li>a{
     text-decoration: none;
     color: black;
 }
 
-.navbar>ul>div>li>a:hover {
+.navbar>ul>div>li>a:hover, .navbar>ul>div>.dropdown>button>li>a:hover{
     color: #674ea7;
     font-weight: 700;
     transition: 0s;
@@ -80,16 +80,17 @@ background: linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 80%);
 }
 svg {
     background-color: white;
-    margin-top: -250px;
+    margin-top: -370px;
 }
 
 #header {
     text-align: center;
     font-size: 70px;
-    position: absolute;
+/*    position: absolute;*/
     width: 100%;
-    top: 200px;
-    left: 0px;
+/*    top: 200px;*/
+/*    left: 0px;*/
+/*    margin-top: -0px;*/
 }
 
 a {
@@ -174,24 +175,27 @@ footer>div {
 
 /* drop down */
 
-.dropbtn {
-    background-color: #ffffff;
+ .dropbtn {
+    background-color: transparent;
     color: white;
     padding: 16px;
     font-size: 20px;
     border: none;
+    border-radius: 20px 20px 0px 0px;
   }
   
   .dropdown {
     display: inline;
+    border-radius: 40px;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0px 20px 20px 20px;
     z-index: 1;
   }
   
@@ -201,13 +205,14 @@ footer>div {
     font-size: 16px;
     text-decoration: none;
     display: block;
+    border-radius: inherit;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #f2f2f2; }
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #ffffff;}
+  .dropdown:hover .dropbtn {background-color: rgba(255,255,255, 0.9);}
 
 
 /*****************Add new styles above*******************/

@@ -176,7 +176,7 @@
     transition: .3s;
 }
 
-.profile-card-2>.row{
+.profile-card-2>. row{
     display: inline;
 /*    height: 30px;*/
 }
@@ -191,3 +191,55 @@
     transition: 1s;
 }
 /*****************Add new styles above*******************/
+
+/*
+.links {
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-color: #674ea7;
+    border-style: solid;
+    transition: .2s;
+    border-radius: 20px;
+}
+
+.links:hover {
+    border-color: #674ea7;
+    border-style: solid;
+    border-width: 2px;
+    color: #674ea7;
+    transition: .2s;
+}*/
+
+#choices {
+    width:inherit;
+    height: inherit;
+    padding: 0px;
+/*    background-color: rgba(255,255,255,0.5);*/
+}
+
+#choices>a {
+    margin: 0px;
+    padding: 0px;
+}
+#choices>a>div {
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+#choices>a>div:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+#choices>a>div:active {
+    background-color: rgba(99,81,162,0.5);
+}
+
+#choices>a:hover {
+    color: black;
+}
+
+#choices>a:active {
+    color: white;
+}
