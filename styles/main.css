@@ -238,8 +238,13 @@ footer>div {
   
   .dropdown:hover .dropdown-content {display: block;}
   
+<<<<<<< HEAD
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+=======
   .dropdown:hover .dropbtn {background-color: rgba(255,255,255, 0.9);}
   
+>>>>>>> 69b91a0245e9aabbce5f298b0e1d1c5441899932
 /*****************Responsive sizing*******************/
 
 @media screen and (max-width: 1000px) {
