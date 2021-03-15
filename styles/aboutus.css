@@ -1,3 +1,11 @@
+/* theme colors:
+#f4f0ff  ==== light-purple
+#674ea7  ==== dark-purple
+#E2D8F9  ==== mid dark purple
+#4B5766  ==== blue grey
+*/
+
+
 @keyframes words-appear {
     0% {color: rgba(255,255,255,0);}
     100% {color: rgba(255,255,255,1); filter: brightness(50%);}
@@ -192,29 +200,19 @@
 }
 /*****************Add new styles above*******************/
 
-/*
-.links {
-    background-color: rgba(255,255,255,0.5);
-    padding: 20px;
-    border-color: #674ea7;
-    border-style: solid;
-    transition: .2s;
-    border-radius: 20px;
+.choice-block {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 120px;
+    z-index: 10000;
+    padding-top: 0px;
+    padding-bottom: 0px; 
 }
-
-.links:hover {
-    border-color: #674ea7;
-    border-style: solid;
-    border-width: 2px;
-    color: #674ea7;
-    transition: .2s;
-}*/
 
 #choices {
     width:inherit;
     height: inherit;
     padding: 0px;
-/*    background-color: rgba(255,255,255,0.5);*/
 }
 
 #choices>a {
@@ -245,5 +243,10 @@
 }
 
 .spacer {
-    padding-top: 20px;
+    height: 250px;
+    background-color: #f4f0ff;
+    padding: 0px;
+    margin: 0px;
+/*    margin-top: -40px;*/
 }
+
