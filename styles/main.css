@@ -235,7 +235,7 @@ footer>div {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #ffffff;}
-  
+
 /*****************Responsive sizing*******************/
 
 @media screen and (max-width: 1000px) {
