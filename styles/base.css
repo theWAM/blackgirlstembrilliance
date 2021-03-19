@@ -185,7 +185,7 @@ footer>div {
  .dropbtn {
     background-color: transparent;
     color: white;
-    padding: 16px;
+    padding: 16px 0px;
     font-size: 20px;
     border: none;
     border-radius: 20px 20px 0px 0px;
@@ -221,6 +221,54 @@ footer>div {
   
   .dropdown:hover .dropbtn {background-color: rgba(255,255,255, 0.9);}
 
+#activities-dropdown {
+    left: 0px;
+}
+
+.choice-block {
+    z-index: 100;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+}
+
+#choices {
+    width: inherit;
+    height: inherit;
+    padding: 0px;
+}
+
+#choices>a {
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+}
+#choices>a>div {
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    height: 100%;
+}
+
+#choices>a>div>h3 {
+    padding-top: 10px;
+}
+
+
+#choices>a>div:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+#choices>a>div:active {
+    background-color: rgba(99,81,162,0.5);
+}
+
+#choices>a:hover {
+    color: black;
+}
+
+#choices>a:active {
+    color: white;
+}
 
 /*****************Add new styles above*******************/
 
