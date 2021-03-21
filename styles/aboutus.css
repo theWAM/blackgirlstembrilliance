@@ -15,7 +15,7 @@
 /*****************Add new styles below*******************/
 
 .profile-pic {
-    height: 150px;
+/*    height: 150px;*/
     position: relative;
     transition: .5s;
 }
@@ -27,6 +27,7 @@
     border-width: 5px;
     border-color: #674ea7;
     transition: .3s;
+    max-height: 150px;
 }
 
 .profile-pic>h3 {
