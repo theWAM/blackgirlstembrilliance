@@ -104,7 +104,7 @@ svg {
 }
 
 #jumbo {
-    height: 120vh;
+    height: 100vh;
 }
 
 .jumbotron {
@@ -137,6 +137,19 @@ svg {
     width: 100%;
 }
 
+
+#scroll-target>* {
+    position: relative;
+    top: 120px;
+    background-color: none;
+}
+
+.spacer {
+    background-color: #f4f0ff;
+    height: 250px;
+}
+
+
 #icons {
     width: 50px;
     height: 50px;
@@ -146,7 +159,13 @@ p {
     margin-bottom: 0px;
 }
 
-.text-block>div>h3>div {
+.text-block>h3>div {
+    display: inline;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+#jumboText>h3>div {
     display: inline;
     padding-left: 10px;
     font-size: 35px;
@@ -249,6 +268,51 @@ footer>div {
 
 #activities-dropdown {
     left: 0px;
+}
+
+.choice-block {
+    z-index: 100;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+}
+
+#choices {
+    width: inherit;
+    height: inherit;
+    padding: 0px;
+}
+
+#choices>a {
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+}
+#choices>a>div {
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    height: 100%;
+}
+
+#choices>a>div>h3 {
+    padding-top: 10px;
+}
+
+
+#choices>a>div:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+#choices>a>div:active {
+    background-color: rgba(99,81,162,0.5);
+}
+
+#choices>a:hover {
+    color: black;
+}
+
+#choices>a:active {
+    color: white;
 }
 /*****************Responsive sizing*******************/
 

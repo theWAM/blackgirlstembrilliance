@@ -34,3 +34,9 @@
     float:right;
     height: 150px;
 }
+
+#schedule>.container>.row {
+    margin: 0px;
+    border: solid;
+    
+}

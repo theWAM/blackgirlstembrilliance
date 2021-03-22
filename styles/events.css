@@ -1,7 +1,14 @@
+/*
 #link {
     height: 100%;
 }
+*/
 
-#link>#choices>a>div>h4 {
-    padding-top: 55px;
+#link>#choices>img {
+/*    padding-top: 55px;*/
 }
+
+#list-picture {
+    height: inherit;
+}
+
