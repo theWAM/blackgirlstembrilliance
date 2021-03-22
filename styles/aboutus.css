@@ -276,8 +276,12 @@
     padding: 5px;
 }
 
-
 .flip-card-back>h4 {
+    margin: auto;
+    margin-top: 65px;
+}
+
+.flip-card-back-middle>h4 {
     margin: auto;
     margin-top: 65px;
 }
