@@ -270,6 +270,16 @@ footer>div {
     color: white;
 }
 
+.cskywla {
+    width: 300px !important;
+    height: 300px !important;
+/*
+    float: right;
+    clear: left;
+*/
+/*    margin-top: -500px;*/
+}
+
 /*****************Add new styles above*******************/
 
 

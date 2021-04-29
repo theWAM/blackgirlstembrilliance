@@ -340,5 +340,36 @@ footer>div {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #mainPic {
+        max-width: 400px;
+    }
+    #mainPic:hover {
+        max-width: 410px;
+    }
+    #nsf {
+        width: 150px;
+    }
+    #nsf-text {
+        width: 100%;
+        font-size: 20px;
+    }
+    #change {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px !important; 
+    }
+    .learn-more > div > h4 {
+        font-size: 15px;
+        margin-left: -7px;
+    }
+    .footerList > ul > b {
+        display: none;
+    }
+    #footer-img {
+        margin-top: 55px;
+    }
+}
+
 /*****************Responsive sizing*******************/
 

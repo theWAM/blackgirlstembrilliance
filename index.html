@@ -23,7 +23,7 @@
       <!--   AOS scroll reveal js import  -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
-      
+    
     <div class="navbar">
         <h1 id="title" class="bubbleBody"><a href="index.html">Black Girl <br>STEM Brilliance</a></h1>
         <ul>
@@ -83,11 +83,11 @@
     
     <div id="scroll-target" class="text-center" style="height: 150px; padding: 0px 100px">
         <div class="row">
-            <div style="width: 200px;" class="text-center">
-                <img src="media/nsf2.png" class="img-fluid text-center">
+            <div style="width: 200px;" class="text-center mx-auto">
+                <img id="nsf" src="media/nsf2.png" class="img-fluid text-center mx-auto">
 
             </div>
-            <h3 class="col-8" style="margin: auto;">Supported By The National Science Foundation</h3>  
+            <h3 id="nsf-text" class="col-8" style="margin: auto;">Supported By The National Science Foundation</h3>  
         </div>
     </div>
     
@@ -101,7 +101,7 @@
       
     <div class="text-block container-fluid">
         
-        <h3 class="container" style="padding-left: 140px">We believe in the power of <div id="changeText" class="bubbleBody">REPRESENTATION</div></h3>
+        <h3 id="change" class="container" style="padding-left: 140px">We believe in the power of <div id="changeText" class="bubbleBody">REPRESENTATION</div></h3>
 <!--            <p></p>-->
         <div>
             <div class="bubbleBody jumbotron mini-titles"><h1>What We're Working On</h1></div>
@@ -115,7 +115,7 @@
                 <div class="col-4 text-center" style="margin:auto;">
                     <div id="link" class="text-block choice-block">
                         <div id="choices">
-                            <a href="consent.html"><div><h4>Learn More!</h4></div></a>
+                            <a class="learn-more" href="consent.html"><div><h4>Learn More!</h4></div></a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                 <div class="col-4 text-center" style="margin:auto;">
                     <div id="link" class="text-block choice-block">
                         <div id="choices">
-                            <a href="hackathon.html"><div><h4>Learn More!</h4></div></a>
+                            <a class="learn-more" href="hackathon.html"><div><h4>Learn More!</h4></div></a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,6 @@
                         </div>
                     </div>
                 </div>
-            
             </div>
         </div>
     </div>
@@ -199,13 +198,12 @@
                 };
             } );
         }, 2200 );
-
       </script>
 
       
     <footer>
         <div class="row">
-            <div class="col-4"><img src="media/bgsbRound2Vector2.png" class="img-fluid"></div>
+            <div class="col-4"><img id="footer-img" src="media/bgsbRound2Vector2.png" class="img-fluid"></div>
             <div class="col-8 row">
                 <div class="footerList col-4">
                     <ul>
